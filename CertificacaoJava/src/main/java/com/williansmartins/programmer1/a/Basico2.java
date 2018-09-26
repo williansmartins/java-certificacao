@@ -1,7 +1,7 @@
 //comentario acima pode
 //pular linha pode
 
-package com.williansmartins.programmer1;
+package com.williansmartins.programmer1.a;
 //sem pacote, vira pacote padrão(default)
 //package deve ser a primeira instrução
 

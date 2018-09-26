@@ -1,4 +1,4 @@
-package com.williansmartins.programmer1;
+package com.williansmartins.programmer1.a;
 
 /**
  * Importe outros pacotes Java e deixe-os acessíveis ao seu código
@@ -23,10 +23,15 @@ class Basico4
 	Date d1;
 	java.sql.Date d2; //tem que usar o fully qualified name 
 	
+	
 	public static void main(String[] args) {
 		System.out.println("H");
 //		ClasseDePacotePadrao c = new ClasseDePacotePadrao();//nao pode importar classe de pacote padrao
+		// Declaração
+
 	}
+	
+
 }
 
 

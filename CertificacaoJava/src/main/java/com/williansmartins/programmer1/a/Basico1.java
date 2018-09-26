@@ -1,4 +1,4 @@
-package com.williansmartins.programmer1;
+package com.williansmartins.programmer1.a;
 
 /**
  * Defina o escopo de variáveis

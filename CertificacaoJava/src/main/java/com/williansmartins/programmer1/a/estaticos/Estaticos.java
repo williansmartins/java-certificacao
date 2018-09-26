@@ -1,4 +1,4 @@
-package com.williansmartins.programmer1.estaticos;
+package com.williansmartins.programmer1.a.estaticos;
 
 public class Estaticos{
 	static int a;

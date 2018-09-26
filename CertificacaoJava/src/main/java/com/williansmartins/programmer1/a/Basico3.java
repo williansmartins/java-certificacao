@@ -1,4 +1,4 @@
-package com.williansmartins.programmer1;
+package com.williansmartins.programmer1.a;
 
 /**
  * Crie aplicações Java executáveis com um método main
