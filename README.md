@@ -7,5 +7,5 @@ javac -d CertificacaoJava/classes CertificacaoJava/src/main/java/com/williansmar
 ```
 
 ```
-java -cp classes com.williansmartins.App
+java -cp CertificacaoJava/classes/ com.williansmartins.programmer1.Basico
 ```
