@@ -1,10 +1,10 @@
-package com.williansmartins;
+package com.williansmartins.programmer1;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class Basico 
 {
     public static void main( String[] args )
     {
