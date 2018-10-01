@@ -1,7 +1,7 @@
 package com.williansmartins.programmer1.c;
 
 /*
- * Utilize o switch
+ * Casting
 */
 
 public class B {
@@ -65,19 +65,26 @@ public class B {
 	}
 
 	void exercicio7() {
+		int i1 = 3;
+		
 		char c = 65;
-        char c2 = 68 - 65;
+        char c2 = 68 - 65; //pode
+//        c2 = i1; //naturalmente não pode ser atribuido a um char
+        
         System.out.println(c + c2);
 	}
 	
 	void exercicio8() {
-		int a = 10;
-		a += ++a + a + ++a;
-		System.out.println(a);   //10+11+11+12
+		String resultado = "Divisao dá: " + 15 / 0.0;
+        System.out.println(resultado);
+	}
+
+	void exercicio9() {
+		//System.out.println(1==true);
 	}
 	
 	public static void main(String[] args) {
-		new B().exercicio7();
+		new B().exercicio8();
 	}
 	
 }
