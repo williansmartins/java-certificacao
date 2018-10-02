@@ -18,27 +18,22 @@ java -cp CertificacaoJava/target com.williansmartins.programmer1.a.Basico1
 ```
 
 ## Empacotar e executar aplicação em um JAR
-from: /c/dev/projetos/pwms/java-certificacao/CertificacaoJava/classes
+from: java-certificacao/CertificacaoJava/classes
 ```
 jar -cf pacote.jar com/williansmartins/*
 ```
 
 ```
- java -cp pacote.jar com.williansmartins.programmer1.Basico
+ java -cp pacote.jar com.williansmartins.programmer1.a.Basico1
 ```
 
 ## Criar jar com manifesto (para definir classe principal)
-compilar:
-```
-javac -d . ../src/main/java/com/williansmartins/programmer1/Basico1.java
-```
-
 gerar jar
 ```
-jar cvfe pacote6.jar com.williansmartins.programmer1.Basico1 com/williansmartins/*
+jar cvfe pacote.jar com.williansmartins.programmer1.a.Basico1 CertificacaoJava/target/com/williansmartins/*
 ```
 
 executar jar
 ```
-java -jar pacote6.jar
+java -jar pacote.jar
 ```
