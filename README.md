@@ -2,12 +2,15 @@
 Preparação para a prova de certificação Java
 
 ## Compilar e executar classes com pacotes
-```
-javac -d CertificacaoJava/classes CertificacaoJava/src/main/java/com/williansmartins/programmer1/Basico.java
-```
+(tem que estar na raiz do projeto: java-certificacao/)
 
 ```
-java -cp CertificacaoJava/classes/ com.williansmartins.programmer1.Basico
+//criar diretorio para jogas os bitecodes
+mkdir CertificacaoJava/target
+//compilar
+javac -d CertificacaoJava/target CertificacaoJava/src/main/java/com/williansmartins/programmer1/a/Basico1.java
+//executar
+java -cp CertificacaoJava/target com.williansmartins.programmer1.a.Basico1
 ```
 
 ## Empacotar e executar aplicação em um JAR
